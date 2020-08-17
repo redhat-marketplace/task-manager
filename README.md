@@ -16,9 +16,6 @@ Run the following command to set the newly installed version as the current vers
 
 If you used SDKMAN! to install java then the install path typically be `$HOME/.sdkman/candidates/java/14.0.2.j9-adpt` on MacOS.
 
-#### Windows
-You can go to https://adoptopenjdk.net/ and download the installer.
-
 ### Build and run
 Run the build using `./gradlew build`
 
