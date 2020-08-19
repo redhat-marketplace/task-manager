@@ -5,7 +5,7 @@ The Task Manager is a multi-tenant task sequencing, scheduling and execution ser
 ### Java
 The application runs using AdoptOpenJDK version 14.0.2_8 on the OpenJ9 VM. These steps below help set up to run in the same environment.
 
-#### MacOS and Linux
+#### MacOS and Linux 
 On MacOS/Linux to manage the environment, SDKMAN! is recommended. Read more about it and follow the instructions here https://sdkman.io/ to setup SDKMAN! Then use it to install and use the necessary JDK.
 
 This will install java but you need not set it to the current or default version.
