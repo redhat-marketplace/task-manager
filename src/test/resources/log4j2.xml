@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config" packages="com.ibm.digital.mp.nestor.antilles.logging.converter" name="LogMaskingConverter">
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss,SSS} | [%t] %C{2} (%F:%L) %mask%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="OFF">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>
