@@ -1,0 +1,69 @@
+{
+    "icon_url": "https://vignette.wikia.nocookie.net/tintin/images/d/d2/Nestor_the_butler_3434.gif/revision/latest?cb=20140216054338",
+    "text": "",
+	"username": "Nestor",
+	"unfurl_media": false,
+    "unfurl_links": false,
+	"attachments":[
+    	        {
+    	            "fallback": "Required plain-text summary of the attachment.",
+    	            "color": "#DC143C",
+    	            "title": "Task Execution Failed",
+    	            "text": "This task failed execution but I will try it again in sometime to see if we can get past the issue.\n<{logEntriesUrl}|Logs>",
+    	            "fields": [
+    	            	{
+    	                    "title": "Task",
+    	                    "value": "{type}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Id",
+    	                    "value": "{_id}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Priority",
+    	                    "value": "Medium",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Status",
+    	                    "value": "{status}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Created",
+    	                    "value": "{createdDate}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Last Update at",
+    	                    "value": "{modifiedDate}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Iterations",
+    	                    "value": "{executionCount}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Last Execution",
+    	                    "value": "{lastExecutionDate}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Retries",
+    	                    "value": "{failedExecutionCount}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Step",
+    	                    "value": "{step}",
+    	                    "short": true
+    	                }
+    	            ],
+					"thumb_url": "https://pbs.twimg.com/media/B_06HMPWIAAyI-6.jpg",
+					"mrkdwn_in": ["text"]
+    	        }
+    	    ]
+}
