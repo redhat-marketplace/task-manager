@@ -1,0 +1,59 @@
+{
+    "icon_url": "https://vignette.wikia.nocookie.net/tintin/images/d/d2/Nestor_the_butler_3434.gif/revision/latest?cb=20140216054338",
+    "text": "",
+	"username": "Nestor",
+	"unfurl_media": false,
+    "unfurl_links": false,
+	"attachments":[
+    	        {
+    	            "fallback": "Required plain-text summary of the attachment.",
+    	            "color": "#36a64f",
+    	            "title": "Task Completed Successfully",
+    	            "text": "This task completed successfully and does not require any further attention.\n<{logEntriesUrl}|Logs>",
+    	            "fields": [
+    	            	{
+    	                    "title": "Task",
+    	                    "value": "{type}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Id",
+    	                    "value": "{_id}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Priority",
+    	                    "value": "Low",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Status",
+    	                    "value": "{status}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Created",
+    	                    "value": "{createdDate}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Last Update at",
+    	                    "value": "{modifiedDate}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Iterations",
+    	                    "value": "{executionCount}",
+    	                    "short": true
+    	                },
+    	                {
+    	                    "title": "Last Execution",
+    	                    "value": "{lastExecutionDate}",
+    	                    "short": true
+    	                }
+    	            ],
+					"thumb_url": "https://sc.mogicons.com/l/thumbs-up-192.png",
+					"mrkdwn_in": ["text"]
+    	        }
+    	    ]
+}
